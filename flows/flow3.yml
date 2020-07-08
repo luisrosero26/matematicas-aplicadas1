@@ -1,0 +1,21 @@
+completion_text: "<p>Gracias por cursar matem\xE1ticas aplicadas.</p>"
+description: "Introducci\xF3n a las matem\xE1ticas aplicadas"
+next_flow_id: ''
+next_flow_title: ''
+pages:
+- content: "<p><b>Informaci\xF3n</b> de matem\xE1ticas aplicadas&nbsp;</p><p><iframe\
+    \ frameborder=\"0\" src=\"//www.youtube.com/embed/aQHyPnjc8lY\" width=\"640\"\
+    \ height=\"360\" class=\"note-video-clip\"></iframe><br></p>"
+  id: intro
+  title: INICIO
+  type: Page
+- content: "<p>Agregando la informaci\xF3n.</p><p><br></p><p><br></p>"
+  id: page5
+  title: Tema 1
+  type: Page
+rules:
+  access:
+  - if_has_role: [ta, student, instructor]
+    permissions: [view]
+  grade_identifier: null
+title: "Matem\xE1ticas aplicadas"
