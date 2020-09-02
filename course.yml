@@ -4,7 +4,8 @@ chunks:
   - flow_id: flow3
     next_flow: null
     pages:
-    - {flow_id: page5, title: Tema 1}
+    - flow_id: page5
+      title: Tema 1
     title: "Matem\xE1ticas aplicadas"
     title_next_flow: ''
   id: welcome
