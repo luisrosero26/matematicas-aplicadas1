@@ -7,7 +7,7 @@ pages:
     \ frameborder=\"0\" src=\"//www.youtube.com/embed/aQHyPnjc8lY\" width=\"640\"\
     \ height=\"360\" class=\"note-video-clip\"></iframe><br></p>"
   id: intro
-  title: INICIO
+  title: Inicio
   type: Page
 - content: "<p>Agregando la informaci\xF3n.</p><p><br></p><p><br></p>"
   id: page5
