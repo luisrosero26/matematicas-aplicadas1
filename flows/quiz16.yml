@@ -1,0 +1,45 @@
+completion_text: |-
+  <p>aaaaaaaa</p>
+description: |-
+  eras
+groups:
+- id: intro
+  pages:
+  - content: "<p>eras</p> "
+    id: welcome
+    title: prueba
+    type: Page
+- id: quiz_start
+  pages:
+  - answers:
+    - <plain>eras
+    id: quizquestion50
+    prompt: ''
+    title: eras
+    type: TextQuestion
+    value: 100.0
+  shuffle: false
+rules:
+  access:
+  - permissions:
+    - view
+    - submit_answer
+    - end_session
+    - see_correctness
+    - see_answer_after_submission
+  grade_aggregation_strategy: use_latest
+  grade_identifier: quiz16
+  grading:
+  - credit_percent: 100
+  start:
+  - if_before: 2021-12-23 12:50:37+00:00
+    if_has_fewer_sessions_than: 1
+    if_has_role:
+    - student
+    - ta
+    - instructor
+    may_list_existing_sessions: true
+    may_start_new_session: true
+  - may_list_existing_sessions: true
+    may_start_new_session: false
+title: prueba
